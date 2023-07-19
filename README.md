@@ -28,12 +28,12 @@ Your users should be able to:
 - Live Site URL: https://krrish105.github.io/Advice-Generator-App/
   
 ## My Process
-###Built with
--Semantic HTML5 markup
--CSS custom properties
--Flexbox
--CSS Grid
--Mobile-first workflow
+   Built with
+  -Semantic HTML5 markup
+  -CSS custom properties
+  -Flexbox
+  -CSS Grid
+  -Mobile-first workflow
 
 
 
