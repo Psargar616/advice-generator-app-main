@@ -3,11 +3,6 @@
 
 ![desktop-preview](https://github.com/Psargar616/advice-generator-app-main/assets/59874378/b71c4ea8-cb17-4894-88a0-d234484a673d)
 
-## Welcome! 👋
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
