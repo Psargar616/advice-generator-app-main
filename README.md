@@ -1,6 +1,7 @@
 # Frontend Mentor - Advice generator app Solution
 
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)]
+
+![desktop-preview](https://github.com/Psargar616/advice-generator-app-main/assets/59874378/b71c4ea8-cb17-4894-88a0-d234484a673d)
 
 ## Welcome! 👋
 
