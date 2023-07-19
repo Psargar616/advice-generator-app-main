@@ -20,7 +20,7 @@ Your users should be able to:
 ## Links
 
 - Solution URL: [https://github.com/Psargar616/advice-generator-app-main)]
-- Live Site URL: https://krrish105.github.io/Advice-Generator-App/
+- Live Site URL:[https://advice-generator-soln-frontendmentor.netlify.app/]
   
 ## My Process
    Built with
