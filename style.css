@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
+
+
+
+:root{
+    --Ligh-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+
+}
+
+
+body{
+    background: var(--Dark-Blue);
+    min-height: 100vh;
+    padding-inline: 1.6rem;
+    display: grid;
+    place-items: center;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+/* sticky footer at end */
+.footer {
+    height: 30px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer a:hover{
+    cursor: pointer;
+    color: #53ffaa;
+    text-decoration: underline;
+}
+.advice-generator-wrapper{
+     
+    font-family: 'Manrope', sans-serif;
+    max-width: 54rem;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: max-content 3.2rem; */
+    grid: max-content 3.2rem / 1fr;
+
+}
+
+
+.advice-gen-op{
+    padding: 4rem 2.4rem 0rem ;
+    background: var(--Dark-Grayish-Blue);
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1.5rem;
+    
+}
+
+.advice-no{
+    color: var(--Neon-Green);
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    letter-spacing: 0.347rem;
+}
+
+.advice-quote{
+    color: var(--Ligh-Cyan);
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 3.3rem;
+    letter-spacing: -0.025rem;
+
+}
+
+.advice-divider-pic{
+    display: flex;
+    width: 100%;
+    
+
+}
+
+picture > img{
+    margin: auto;
+    width: 100%;
+}
+
+.btn{
+    width: 6.4rem;
+    height: 6.4rem;
+    background: #53ffaa;
+    border-radius: 50%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    place-items: end center;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: box-shadow 250ms ease-in-out;
+    transform: translateY(32px);
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px var(--Neon-Green);
+}
+
+.btn-img{
+  transition: transform 250ms;
+}
+
+.btn:hover > img{
+    transform: rotate(135deg);
+}
+
+
+  .footer {
+    flex-shrink: 0;
+  }
+/* media queries */
+
+@media screen and (min-width:545px){
+    .advice-no{
+        font-size: 1.3rem;
+        letter-spacing: 0.40rem;
+        line-height: 1.8rem;
+    }
+
+    .advice-quote{
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+        letter-spacing: -0.03rem;
+        margin-bottom: 1.6rem;
+
+    }
+}

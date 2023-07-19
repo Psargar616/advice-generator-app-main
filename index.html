@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <!-- defer makes sure that js loads after the html page -->
+  <script defer src="main.js"></script>
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+ 
+
+ 
+
+  <div class="advice-generator-wrapper">
+    <!-- card -->
+    <div class="advice-gen-op">
+      <!-- Advice ID goes here -->
+      <span class="advice-no">
+        Advice #11
+      </span>
+       <!-- Advice text goes here -->
+      <q class="advice-quote">
+        It is easy to sit up and take notice,
+        what's difficult is getting up and taking action.
+      </q>
+      <!-- picture tag helps in responsiveness -->
+      <picture class="advice-divider-pic">
+       <source media="(min-width:545 )" srcset="./images/pattern-divider-desktop.svg" >
+
+       <img src="./images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
+
+      </picture>
+      <!-- button -->
+      <button type="button" class="btn">
+        <img src="./images/icon-dice.svg" alt="icon-dice" class="btn-img">
+      </button>
+    </div>
+  </div>
+
+
+  
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pranjali Sargar</a>.
+  </footer>
+  
+</body>
+</html>
